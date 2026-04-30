@@ -1,0 +1,3987 @@
+Warning: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+The "disableHostCheck" option will not be used because it is not supported by the "@angular-devkit/build-angular:application" builder.
+- Building...
+
+Application bundle generation failed. [9.273 seconds]
+
+▲ [WARNING] "perspectiva" is not a known CSS property [plugin angular-compiler] [unsupported-css-property]
+
+    angular:styles/component:css;3cd04632f01d75995582e7c27e12b7641987751edb3801c1ce90f10a264be400;C:/Users/dibya/OneDrive/Desktop/New folder/placement-frontend/src/app/landing/landing.component.ts:137:133:
+      137 │ ...gn-items: center; justify-content: center; perspectiva: 1000px; }
+          │                                               ~~~~~~~~~~~
+          ╵                                               perspective
+
+  Did you mean "perspective" instead?
+
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:71:41:
+      71 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'hasApplied' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:302:28:
+      302 │     return this.dataService.hasApplied(1, jobId);
+          ╵                             ~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'getStudentById' does not exist on type 'MockDataService'. Did you mean 'getStudents'? [plugin angular-compiler]
+
+    src/app/student/profile/student-profile.component.ts:168:21:
+      168 │     this.dataService.getStudentById(1).subscribe(s => this.studen...
+          ╵                      ~~~~~~~~~~~~~~
+
+  'getStudents' is declared here.
+
+    src/app/core/mock-data.service.ts:76:2:
+      76 │   getStudents(): Observable<Student[]> {
+         ╵   ~~~~~~~~~~~
+
+
+X [ERROR] TS7006: Parameter 's' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/student/profile/student-profile.component.ts:168:49:
+      168 │ ...rvice.getStudentById(1).subscribe(s => this.student = s || null);
+          ╵                                      ^
+
+
+Watch mode enabled. Watching for file changes...
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [27.360 seconds]
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:71:41:
+      71 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'hasApplied' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:302:28:
+      302 │     return this.dataService.hasApplied(1, jobId);
+          ╵                             ~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'getStudentById' does not exist on type 'MockDataService'. Did you mean 'getStudents'? [plugin angular-compiler]
+
+    src/app/student/profile/student-profile.component.ts:168:21:
+      168 │     this.dataService.getStudentById(1).subscribe(s => this.studen...
+          ╵                      ~~~~~~~~~~~~~~
+
+  'getStudents' is declared here.
+
+    src/app/core/mock-data.service.ts:76:2:
+      76 │   getStudents(): Observable<Student[]> {
+         ╵   ~~~~~~~~~~~
+
+
+X [ERROR] TS7006: Parameter 's' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/student/profile/student-profile.component.ts:168:49:
+      168 │ ...rvice.getStudentById(1).subscribe(s => this.student = s || null);
+          ╵                                      ^
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [1.563 seconds]
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:71:41:
+      71 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'hasApplied' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:302:28:
+      302 │     return this.dataService.hasApplied(1, jobId);
+          ╵                             ~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'getCurrentUserSync' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/profile/student-profile.component.ts:162:34:
+      162 │     const user = this.dataService.getCurrentUserSync();
+          ╵                                   ~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'getStudentById' does not exist on type 'MockDataService'. Did you mean 'getStudents'? [plugin angular-compiler]
+
+    src/app/student/profile/student-profile.component.ts:164:23:
+      164 │       this.dataService.getStudentById(user.id).subscribe(s => thi...
+          ╵                        ~~~~~~~~~~~~~~
+
+  'getStudents' is declared here.
+
+    src/app/core/mock-data.service.ts:76:2:
+      76 │   getStudents(): Observable<Student[]> {
+         ╵   ~~~~~~~~~~~
+
+
+X [ERROR] TS7006: Parameter 's' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/student/profile/student-profile.component.ts:164:57:
+      164 │ ...getStudentById(user.id).subscribe(s => this.student = s || null);
+          ╵                                      ^
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [2.998 seconds]
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'getCurrentUserSync' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/recruiter/profile/recruiter-profile.component.ts:101:34:
+      101 │     const user = this.dataService.getCurrentUserSync();
+          ╵                                   ~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:71:41:
+      71 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'hasApplied' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:302:28:
+      302 │     return this.dataService.hasApplied(1, jobId);
+          ╵                             ~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'getCurrentUserSync' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/profile/student-profile.component.ts:162:34:
+      162 │     const user = this.dataService.getCurrentUserSync();
+          ╵                                   ~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'getStudentById' does not exist on type 'MockDataService'. Did you mean 'getStudents'? [plugin angular-compiler]
+
+    src/app/student/profile/student-profile.component.ts:164:23:
+      164 │       this.dataService.getStudentById(user.id).subscribe(s => thi...
+          ╵                        ~~~~~~~~~~~~~~
+
+  'getStudents' is declared here.
+
+    src/app/core/mock-data.service.ts:76:2:
+      76 │   getStudents(): Observable<Student[]> {
+         ╵   ~~~~~~~~~~~
+
+
+X [ERROR] TS7006: Parameter 's' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/student/profile/student-profile.component.ts:164:57:
+      164 │ ...getStudentById(user.id).subscribe(s => this.student = s || null);
+          ╵                                      ^
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [3.860 seconds]
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:71:41:
+      71 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'hasApplied' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:302:28:
+      302 │     return this.dataService.hasApplied(1, jobId);
+          ╵                             ~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'getStudentById' does not exist on type 'MockDataService'. Did you mean 'getStudents'? [plugin angular-compiler]
+
+    src/app/student/profile/student-profile.component.ts:164:23:
+      164 │       this.dataService.getStudentById(user.id).subscribe(s => thi...
+          ╵                        ~~~~~~~~~~~~~~
+
+  'getStudents' is declared here.
+
+    src/app/core/mock-data.service.ts:76:2:
+      76 │   getStudents(): Observable<Student[]> {
+         ╵   ~~~~~~~~~~~
+
+
+X [ERROR] TS7006: Parameter 's' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/student/profile/student-profile.component.ts:164:57:
+      164 │ ...getStudentById(user.id).subscribe(s => this.student = s || null);
+          ╵                                      ^
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [12.882 seconds]
+
+▲ [WARNING] Duplicate member "getRecruiterById" in class body [duplicate-class-member]
+
+    src/app/core/mock-data.service.ts:93:4:
+      93 │     getRecruiterById(id) {
+         ╵     ~~~~~~~~~~~~~~~~
+
+  The original member "getRecruiterById" is here:
+
+    src/app/core/mock-data.service.ts:80:4:
+      80 │     getRecruiterById(id) {
+         ╵     ~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteRecruiter' does not exist on type 'MockDataService'. Did you mean 'getRecruiters'? [plugin angular-compiler]
+
+    src/app/admin/manage-recruiters/manage-recruiters.component.ts:107:21:
+      107 │     this.dataService.deleteRecruiter(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'getRecruiters' is declared here.
+
+    src/app/core/mock-data.service.ts:95:2:
+      95 │   getRecruiters(): Observable<Recruiter[]> {
+         ╵   ~~~~~~~~~~~~~
+
+
+X [ERROR] TS2393: Duplicate function implementation. [plugin angular-compiler]
+
+    src/app/core/mock-data.service.ts:99:2:
+      99 │   getRecruiterById(id: number): Observable<Recruiter> {
+         ╵   ~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2393: Duplicate function implementation. [plugin angular-compiler]
+
+    src/app/core/mock-data.service.ts:116:2:
+      116 │   getRecruiterById(id: number): Observable<Recruiter> {
+          ╵   ~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:71:41:
+      71 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'hasApplied' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:302:28:
+      302 │     return this.dataService.hasApplied(1, jobId);
+          ╵                             ~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.670 seconds]
+
+▲ [WARNING] Duplicate member "getRecruiterById" in class body [duplicate-class-member]
+
+    src/app/core/mock-data.service.ts:93:4:
+      93 │     getRecruiterById(id) {
+         ╵     ~~~~~~~~~~~~~~~~
+
+  The original member "getRecruiterById" is here:
+
+    src/app/core/mock-data.service.ts:80:4:
+      80 │     getRecruiterById(id) {
+         ╵     ~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteRecruiter' does not exist on type 'MockDataService'. Did you mean 'getRecruiters'? [plugin angular-compiler]
+
+    src/app/admin/manage-recruiters/manage-recruiters.component.ts:107:21:
+      107 │     this.dataService.deleteRecruiter(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'getRecruiters' is declared here.
+
+    src/app/core/mock-data.service.ts:95:2:
+      95 │   getRecruiters(): Observable<Recruiter[]> {
+         ╵   ~~~~~~~~~~~~~
+
+
+X [ERROR] TS2393: Duplicate function implementation. [plugin angular-compiler]
+
+    src/app/core/mock-data.service.ts:99:2:
+      99 │   getRecruiterById(id: number): Observable<Recruiter> {
+         ╵   ~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2393: Duplicate function implementation. [plugin angular-compiler]
+
+    src/app/core/mock-data.service.ts:116:2:
+      116 │   getRecruiterById(id: number): Observable<Recruiter> {
+          ╵   ~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:71:41:
+      71 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'hasApplied' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:302:28:
+      302 │     return this.dataService.hasApplied(1, jobId);
+          ╵                             ~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [4.393 seconds]
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteRecruiter' does not exist on type 'MockDataService'. Did you mean 'getRecruiters'? [plugin angular-compiler]
+
+    src/app/admin/manage-recruiters/manage-recruiters.component.ts:107:21:
+      107 │     this.dataService.deleteRecruiter(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'getRecruiters' is declared here.
+
+    src/app/core/mock-data.service.ts:95:2:
+      95 │   getRecruiters(): Observable<Recruiter[]> {
+         ╵   ~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:71:41:
+      71 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'hasApplied' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:302:28:
+      302 │     return this.dataService.hasApplied(1, jobId);
+          ╵                             ~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.663 seconds]
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteRecruiter' does not exist on type 'MockDataService'. Did you mean 'getRecruiters'? [plugin angular-compiler]
+
+    src/app/admin/manage-recruiters/manage-recruiters.component.ts:107:21:
+      107 │     this.dataService.deleteRecruiter(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'getRecruiters' is declared here.
+
+    src/app/core/mock-data.service.ts:95:2:
+      95 │   getRecruiters(): Observable<Recruiter[]> {
+         ╵   ~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:71:41:
+      71 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'hasApplied' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:302:28:
+      302 │     return this.dataService.hasApplied(1, jobId);
+          ╵                             ~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [3.330 seconds]
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteRecruiter' does not exist on type 'MockDataService'. Did you mean 'getRecruiters'? [plugin angular-compiler]
+
+    src/app/admin/manage-recruiters/manage-recruiters.component.ts:148:21:
+      148 │     this.dataService.deleteRecruiter(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'getRecruiters' is declared here.
+
+    src/app/core/mock-data.service.ts:95:2:
+      95 │   getRecruiters(): Observable<Recruiter[]> {
+         ╵   ~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:71:41:
+      71 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'hasApplied' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:302:28:
+      302 │     return this.dataService.hasApplied(1, jobId);
+          ╵                             ~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [3.642 seconds]
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:71:41:
+      71 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'hasApplied' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:302:28:
+      302 │     return this.dataService.hasApplied(1, jobId);
+          ╵                             ~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.748 seconds]
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:71:41:
+      71 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'recentApps' does not exist on type 'StudentDashboardComponent'. [plugin angular-compiler]
+
+    src/app/student/dashboard/student-dashboard.component.ts:33:55:
+      33 │ ...p-item" *ngFor="let app of recentApps; let i = index" [style.an...
+         ╵                               ~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'dataService' does not exist on type 'StudentDashboardComponent'. [plugin angular-compiler]
+
+    src/app/student/dashboard/student-dashboard.component.ts:122:22:
+      122 │     const user = this.dataService.getCurrentUserSync();
+          ╵                       ~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'dataService' does not exist on type 'StudentDashboardComponent'. [plugin angular-compiler]
+
+    src/app/student/dashboard/student-dashboard.component.ts:124:11:
+      124 │       this.dataService.getStudentById(user.id).subscribe(s => {
+          ╵            ~~~~~~~~~~~
+
+
+X [ERROR] TS7006: Parameter 's' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/student/dashboard/student-dashboard.component.ts:124:57:
+      124 │       this.dataService.getStudentById(user.id).subscribe(s => {
+          ╵                                                          ^
+
+
+X [ERROR] TS2339: Property 'dataService' does not exist on type 'StudentDashboardComponent'. [plugin angular-compiler]
+
+    src/app/student/dashboard/student-dashboard.component.ts:132:9:
+      132 │     this.dataService.getJobs().subscribe(jobs => this.stats[0].va...
+          ╵          ~~~~~~~~~~~
+
+
+X [ERROR] TS7006: Parameter 'jobs' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/student/dashboard/student-dashboard.component.ts:132:41:
+      132 │ ...aService.getJobs().subscribe(jobs => this.stats[0].value = job...
+          ╵                                 ~~~~
+
+
+X [ERROR] TS2339: Property 'dataService' does not exist on type 'StudentDashboardComponent'. [plugin angular-compiler]
+
+    src/app/student/dashboard/student-dashboard.component.ts:136:9:
+      136 │     this.dataService.getStudentApplications(studentId).subscribe(...
+          ╵          ~~~~~~~~~~~
+
+
+X [ERROR] TS7006: Parameter 'apps' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/student/dashboard/student-dashboard.component.ts:136:65:
+      136 │ ...dataService.getStudentApplications(studentId).subscribe(apps => {
+          ╵                                                            ~~~~
+
+
+X [ERROR] TS7006: Parameter 'a' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/student/dashboard/student-dashboard.component.ts:138:40:
+      138 │ ...s.stats[2].value = apps.filter(a => a.status === 'ACCEPTED').l...
+          ╵                                   ^
+
+
+X [ERROR] TS2339: Property 'recentApps' does not exist on type 'StudentDashboardComponent'. [plugin angular-compiler]
+
+    src/app/student/dashboard/student-dashboard.component.ts:139:11:
+      139 │       this.recentApps = apps.slice(0, 5);
+          ╵            ~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'dataService' does not exist on type 'StudentDashboardComponent'. [plugin angular-compiler]
+
+    src/app/student/dashboard/student-dashboard.component.ts:142:9:
+      142 │     this.dataService.getAllInterviews().subscribe(ints => {
+          ╵          ~~~~~~~~~~~
+
+
+X [ERROR] TS7006: Parameter 'ints' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/student/dashboard/student-dashboard.component.ts:142:50:
+      142 │     this.dataService.getAllInterviews().subscribe(ints => {
+          ╵                                                   ~~~~
+
+
+X [ERROR] TS7006: Parameter 'i' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/student/dashboard/student-dashboard.component.ts:144:40:
+      144 │ ...s.stats[3].value = ints.filter(i => i.studentName === this.stu...
+          ╵                                   ^
+
+
+X [ERROR] TS2339: Property 'hasApplied' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:302:28:
+      302 │     return this.dataService.hasApplied(1, jobId);
+          ╵                             ~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [1.115 seconds]
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'recentApplicants' does not exist on type 'RecruiterDashboardComponent'. [plugin angular-compiler]
+
+    src/app/recruiter/dashboard/recruiter-dashboard.component.ts:60:61:
+      60 │ ...tem" *ngFor="let app of recentApplicants; let i = index" [style...
+         ╵                            ~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'dataService' does not exist on type 'RecruiterDashboardComponent'. [plugin angular-compiler]
+
+    src/app/recruiter/dashboard/recruiter-dashboard.component.ts:184:22:
+      184 │     const user = this.dataService.getCurrentUserSync();
+          ╵                       ~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'dataService' does not exist on type 'RecruiterDashboardComponent'. [plugin angular-compiler]
+
+    src/app/recruiter/dashboard/recruiter-dashboard.component.ts:186:11:
+      186 │       this.dataService.getRecruiterById(user.id).subscribe(r => {
+          ╵            ~~~~~~~~~~~
+
+
+X [ERROR] TS7006: Parameter 'r' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/recruiter/dashboard/recruiter-dashboard.component.ts:186:59:
+      186 │       this.dataService.getRecruiterById(user.id).subscribe(r => {
+          ╵                                                            ^
+
+
+X [ERROR] TS2339: Property 'dataService' does not exist on type 'RecruiterDashboardComponent'. [plugin angular-compiler]
+
+    src/app/recruiter/dashboard/recruiter-dashboard.component.ts:198:11:
+      198 │       this.dataService.getJobs().subscribe(jobs => {
+          ╵            ~~~~~~~~~~~
+
+
+X [ERROR] TS7006: Parameter 'jobs' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/recruiter/dashboard/recruiter-dashboard.component.ts:198:43:
+      198 │       this.dataService.getJobs().subscribe(jobs => {
+          ╵                                            ~~~~
+
+
+X [ERROR] TS7006: Parameter 'j' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/recruiter/dashboard/recruiter-dashboard.component.ts:200:35:
+      200 │ ...    const myJobs = jobs.filter(j => j.recruiterId === recruite...
+          ╵                                   ^
+
+
+X [ERROR] TS2339: Property 'dataService' does not exist on type 'RecruiterDashboardComponent'. [plugin angular-compiler]
+
+    src/app/recruiter/dashboard/recruiter-dashboard.component.ts:204:11:
+      204 │       this.dataService.getAllApplications().subscribe(apps => {
+          ╵            ~~~~~~~~~~~
+
+
+X [ERROR] TS7006: Parameter 'apps' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/recruiter/dashboard/recruiter-dashboard.component.ts:204:54:
+      204 │       this.dataService.getAllApplications().subscribe(apps => {
+          ╵                                                       ~~~~
+
+
+X [ERROR] TS7006: Parameter 'a' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/recruiter/dashboard/recruiter-dashboard.component.ts:208:42:
+      208 │ ...s.stats[2].value = apps.filter(a => a.status === 'ACCEPTED').l...
+          ╵                                   ^
+
+
+X [ERROR] TS2339: Property 'recentApplicants' does not exist on type 'RecruiterDashboardComponent'. [plugin angular-compiler]
+
+    src/app/recruiter/dashboard/recruiter-dashboard.component.ts:209:13:
+      209 │         this.recentApplicants = apps.slice(0, 5);
+          ╵              ~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'dataService' does not exist on type 'RecruiterDashboardComponent'. [plugin angular-compiler]
+
+    src/app/recruiter/dashboard/recruiter-dashboard.component.ts:212:11:
+      212 │       this.dataService.getAllInterviews().subscribe(ints => {
+          ╵            ~~~~~~~~~~~
+
+
+X [ERROR] TS7006: Parameter 'ints' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/recruiter/dashboard/recruiter-dashboard.component.ts:212:52:
+      212 │       this.dataService.getAllInterviews().subscribe(ints => {
+          ╵                                                     ~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:71:41:
+      71 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'recentApps' does not exist on type 'StudentDashboardComponent'. [plugin angular-compiler]
+
+    src/app/student/dashboard/student-dashboard.component.ts:33:55:
+      33 │ ...p-item" *ngFor="let app of recentApps; let i = index" [style.an...
+         ╵                               ~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'dataService' does not exist on type 'StudentDashboardComponent'. [plugin angular-compiler]
+
+    src/app/student/dashboard/student-dashboard.component.ts:122:22:
+      122 │     const user = this.dataService.getCurrentUserSync();
+          ╵                       ~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'dataService' does not exist on type 'StudentDashboardComponent'. [plugin angular-compiler]
+
+    src/app/student/dashboard/student-dashboard.component.ts:124:11:
+      124 │       this.dataService.getStudentById(user.id).subscribe(s => {
+          ╵            ~~~~~~~~~~~
+
+
+X [ERROR] TS7006: Parameter 's' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/student/dashboard/student-dashboard.component.ts:124:57:
+      124 │       this.dataService.getStudentById(user.id).subscribe(s => {
+          ╵                                                          ^
+
+
+X [ERROR] TS2339: Property 'dataService' does not exist on type 'StudentDashboardComponent'. [plugin angular-compiler]
+
+    src/app/student/dashboard/student-dashboard.component.ts:132:9:
+      132 │     this.dataService.getJobs().subscribe(jobs => this.stats[0].va...
+          ╵          ~~~~~~~~~~~
+
+
+X [ERROR] TS7006: Parameter 'jobs' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/student/dashboard/student-dashboard.component.ts:132:41:
+      132 │ ...aService.getJobs().subscribe(jobs => this.stats[0].value = job...
+          ╵                                 ~~~~
+
+
+X [ERROR] TS2339: Property 'dataService' does not exist on type 'StudentDashboardComponent'. [plugin angular-compiler]
+
+    src/app/student/dashboard/student-dashboard.component.ts:136:9:
+      136 │     this.dataService.getStudentApplications(studentId).subscribe(...
+          ╵          ~~~~~~~~~~~
+
+
+X [ERROR] TS7006: Parameter 'apps' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/student/dashboard/student-dashboard.component.ts:136:65:
+      136 │ ...dataService.getStudentApplications(studentId).subscribe(apps => {
+          ╵                                                            ~~~~
+
+
+X [ERROR] TS7006: Parameter 'a' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/student/dashboard/student-dashboard.component.ts:138:40:
+      138 │ ...s.stats[2].value = apps.filter(a => a.status === 'ACCEPTED').l...
+          ╵                                   ^
+
+
+X [ERROR] TS2339: Property 'recentApps' does not exist on type 'StudentDashboardComponent'. [plugin angular-compiler]
+
+    src/app/student/dashboard/student-dashboard.component.ts:139:11:
+      139 │       this.recentApps = apps.slice(0, 5);
+          ╵            ~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'dataService' does not exist on type 'StudentDashboardComponent'. [plugin angular-compiler]
+
+    src/app/student/dashboard/student-dashboard.component.ts:142:9:
+      142 │     this.dataService.getAllInterviews().subscribe(ints => {
+          ╵          ~~~~~~~~~~~
+
+
+X [ERROR] TS7006: Parameter 'ints' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/student/dashboard/student-dashboard.component.ts:142:50:
+      142 │     this.dataService.getAllInterviews().subscribe(ints => {
+          ╵                                                   ~~~~
+
+
+X [ERROR] TS7006: Parameter 'i' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/student/dashboard/student-dashboard.component.ts:144:40:
+      144 │ ...s.stats[3].value = ints.filter(i => i.studentName === this.stu...
+          ╵                                   ^
+
+
+X [ERROR] TS2339: Property 'hasApplied' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:302:28:
+      302 │     return this.dataService.hasApplied(1, jobId);
+          ╵                             ~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.646 seconds]
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'recentApplicants' does not exist on type 'RecruiterDashboardComponent'. [plugin angular-compiler]
+
+    src/app/recruiter/dashboard/recruiter-dashboard.component.ts:60:61:
+      60 │ ...tem" *ngFor="let app of recentApplicants; let i = index" [style...
+         ╵                            ~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'dataService' does not exist on type 'RecruiterDashboardComponent'. [plugin angular-compiler]
+
+    src/app/recruiter/dashboard/recruiter-dashboard.component.ts:184:22:
+      184 │     const user = this.dataService.getCurrentUserSync();
+          ╵                       ~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'dataService' does not exist on type 'RecruiterDashboardComponent'. [plugin angular-compiler]
+
+    src/app/recruiter/dashboard/recruiter-dashboard.component.ts:186:11:
+      186 │       this.dataService.getRecruiterById(user.id).subscribe(r => {
+          ╵            ~~~~~~~~~~~
+
+
+X [ERROR] TS7006: Parameter 'r' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/recruiter/dashboard/recruiter-dashboard.component.ts:186:59:
+      186 │       this.dataService.getRecruiterById(user.id).subscribe(r => {
+          ╵                                                            ^
+
+
+X [ERROR] TS2339: Property 'dataService' does not exist on type 'RecruiterDashboardComponent'. [plugin angular-compiler]
+
+    src/app/recruiter/dashboard/recruiter-dashboard.component.ts:198:11:
+      198 │       this.dataService.getJobs().subscribe(jobs => {
+          ╵            ~~~~~~~~~~~
+
+
+X [ERROR] TS7006: Parameter 'jobs' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/recruiter/dashboard/recruiter-dashboard.component.ts:198:43:
+      198 │       this.dataService.getJobs().subscribe(jobs => {
+          ╵                                            ~~~~
+
+
+X [ERROR] TS7006: Parameter 'j' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/recruiter/dashboard/recruiter-dashboard.component.ts:200:35:
+      200 │ ...    const myJobs = jobs.filter(j => j.recruiterId === recruite...
+          ╵                                   ^
+
+
+X [ERROR] TS2339: Property 'dataService' does not exist on type 'RecruiterDashboardComponent'. [plugin angular-compiler]
+
+    src/app/recruiter/dashboard/recruiter-dashboard.component.ts:204:11:
+      204 │       this.dataService.getAllApplications().subscribe(apps => {
+          ╵            ~~~~~~~~~~~
+
+
+X [ERROR] TS7006: Parameter 'apps' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/recruiter/dashboard/recruiter-dashboard.component.ts:204:54:
+      204 │       this.dataService.getAllApplications().subscribe(apps => {
+          ╵                                                       ~~~~
+
+
+X [ERROR] TS7006: Parameter 'a' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/recruiter/dashboard/recruiter-dashboard.component.ts:208:42:
+      208 │ ...s.stats[2].value = apps.filter(a => a.status === 'ACCEPTED').l...
+          ╵                                   ^
+
+
+X [ERROR] TS2339: Property 'recentApplicants' does not exist on type 'RecruiterDashboardComponent'. [plugin angular-compiler]
+
+    src/app/recruiter/dashboard/recruiter-dashboard.component.ts:209:13:
+      209 │         this.recentApplicants = apps.slice(0, 5);
+          ╵              ~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'dataService' does not exist on type 'RecruiterDashboardComponent'. [plugin angular-compiler]
+
+    src/app/recruiter/dashboard/recruiter-dashboard.component.ts:212:11:
+      212 │       this.dataService.getAllInterviews().subscribe(ints => {
+          ╵            ~~~~~~~~~~~
+
+
+X [ERROR] TS7006: Parameter 'ints' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/recruiter/dashboard/recruiter-dashboard.component.ts:212:52:
+      212 │       this.dataService.getAllInterviews().subscribe(ints => {
+          ╵                                                     ~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:71:41:
+      71 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'hasApplied' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:302:28:
+      302 │     return this.dataService.hasApplied(1, jobId);
+          ╵                             ~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.806 seconds]
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:71:41:
+      71 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'hasApplied' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:302:28:
+      302 │     return this.dataService.hasApplied(1, jobId);
+          ╵                             ~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.645 seconds]
+
+▲ [WARNING] "perspectiva" is not a known CSS property [plugin angular-compiler] [unsupported-css-property]
+
+    angular:styles/component:css;3cd04632f01d75995582e7c27e12b7641987751edb3801c1ce90f10a264be400;C:/Users/dibya/OneDrive/Desktop/New folder/placement-frontend/src/app/landing/landing.component.ts:137:133:
+      137 │ ...gn-items: center; justify-content: center; perspectiva: 1000px; }
+          │                                               ~~~~~~~~~~~
+          ╵                                               perspective
+
+  Did you mean "perspective" instead?
+
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'totalJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:40:38:
+      40 │ ...p class="hero-subtitle">{{ totalJobs }} jobs available! Your dr...
+         ╵                               ~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:54:47:
+      54 │ ...<section class="trending-section" *ngIf="trendingJobs.length > 0">
+         ╵                                             ~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:60:54:
+      60 │ ...class="trend-card" *ngFor="let job of trendingJobs; let i = index"
+         ╵                                          ~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:71:41:
+      71 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'hasApplied' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:302:28:
+      302 │     return this.dataService.hasApplied(1, jobId);
+          ╵                             ~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [1.037 seconds]
+
+▲ [WARNING] "perspectiva" is not a known CSS property [plugin angular-compiler] [unsupported-css-property]
+
+    angular:styles/component:css;3cd04632f01d75995582e7c27e12b7641987751edb3801c1ce90f10a264be400;C:/Users/dibya/OneDrive/Desktop/New folder/placement-frontend/src/app/landing/landing.component.ts:137:133:
+      137 │ ...gn-items: center; justify-content: center; perspectiva: 1000px; }
+          │                                               ~~~~~~~~~~~
+          ╵                                               perspective
+
+  Did you mean "perspective" instead?
+
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'totalJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:42:38:
+      42 │ ...p class="hero-subtitle">{{ totalJobs }} jobs available! Your dr...
+         ╵                               ~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:56:47:
+      56 │ ...<section class="trending-section" *ngIf="trendingJobs.length > 0">
+         ╵                                             ~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:62:54:
+      62 │ ...class="trend-card" *ngFor="let job of trendingJobs; let i = index"
+         ╵                                          ~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:71:41:
+      71 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'hasApplied' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:302:28:
+      302 │     return this.dataService.hasApplied(1, jobId);
+          ╵                             ~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [4.101 seconds]
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2741: Property 'name' is missing in type '{ id: any; email: any; role: any; token: any; }' but required in type 'User'. [plugin angular-compiler]
+
+    src/app/core/auth.service.ts:23:16:
+      23 │           const user: User = {
+         ╵                 ~~~~
+
+  'name' is declared here.
+
+    src/app/models/user.model.ts:5:2:
+      5 │   name: string;
+        ╵   ~~~~
+
+
+X [ERROR] NG9: Property 'totalJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:42:38:
+      42 │ ...p class="hero-subtitle">{{ totalJobs }} jobs available! Your dr...
+         ╵                               ~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:56:47:
+      56 │ ...<section class="trending-section" *ngIf="trendingJobs.length > 0">
+         ╵                                             ~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:62:54:
+      62 │ ...class="trend-card" *ngFor="let job of trendingJobs; let i = index"
+         ╵                                          ~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:71:41:
+      71 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'hasApplied' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:302:28:
+      302 │     return this.dataService.hasApplied(1, jobId);
+          ╵                             ~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [1.811 seconds]
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2304: Cannot find name 'User'. [plugin angular-compiler]
+
+    src/app/core/mock-data.service.ts:128:24:
+      128 │   getCurrentUserSync(): User | null {
+          ╵                         ~~~~
+
+
+X [ERROR] NG9: Property 'totalJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:42:38:
+      42 │ ...p class="hero-subtitle">{{ totalJobs }} jobs available! Your dr...
+         ╵                               ~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:56:47:
+      56 │ ...<section class="trending-section" *ngIf="trendingJobs.length > 0">
+         ╵                                             ~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:62:54:
+      62 │ ...class="trend-card" *ngFor="let job of trendingJobs; let i = index"
+         ╵                                          ~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:71:41:
+      71 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'hasApplied' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:302:28:
+      302 │     return this.dataService.hasApplied(1, jobId);
+          ╵                             ~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.350 seconds]
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2304: Cannot find name 'User'. [plugin angular-compiler]
+
+    src/app/core/mock-data.service.ts:128:24:
+      128 │   getCurrentUserSync(): User | null {
+          ╵                         ~~~~
+
+
+X [ERROR] NG9: Property 'totalJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:42:38:
+      42 │ ...p class="hero-subtitle">{{ totalJobs }} jobs available! Your dr...
+         ╵                               ~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:56:47:
+      56 │ ...<section class="trending-section" *ngIf="trendingJobs.length > 0">
+         ╵                                             ~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:62:54:
+      62 │ ...class="trend-card" *ngFor="let job of trendingJobs; let i = index"
+         ╵                                          ~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:71:41:
+      71 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'hasApplied' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:302:28:
+      302 │     return this.dataService.hasApplied(1, jobId);
+          ╵                             ~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.563 seconds]
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2304: Cannot find name 'User'. [plugin angular-compiler]
+
+    src/app/core/mock-data.service.ts:128:24:
+      128 │   getCurrentUserSync(): User | null {
+          ╵                         ~~~~
+
+
+X [ERROR] NG9: Property 'totalJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:42:38:
+      42 │ ...p class="hero-subtitle">{{ totalJobs }} jobs available! Your dr...
+         ╵                               ~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:56:47:
+      56 │ ...<section class="trending-section" *ngIf="trendingJobs.length > 0">
+         ╵                                             ~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:62:54:
+      62 │ ...class="trend-card" *ngFor="let job of trendingJobs; let i = index"
+         ╵                                          ~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:71:41:
+      71 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'hasApplied' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:302:28:
+      302 │     return this.dataService.hasApplied(1, jobId);
+          ╵                             ~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [1.905 seconds]
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'totalJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:42:38:
+      42 │ ...p class="hero-subtitle">{{ totalJobs }} jobs available! Your dr...
+         ╵                               ~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:56:47:
+      56 │ ...<section class="trending-section" *ngIf="trendingJobs.length > 0">
+         ╵                                             ~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:62:54:
+      62 │ ...class="trend-card" *ngFor="let job of trendingJobs; let i = index"
+         ╵                                          ~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:71:41:
+      71 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'hasApplied' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:302:28:
+      302 │     return this.dataService.hasApplied(1, jobId);
+          ╵                             ~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.419 seconds]
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'totalJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:42:38:
+      42 │ ...p class="hero-subtitle">{{ totalJobs }} jobs available! Your dr...
+         ╵                               ~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:56:47:
+      56 │ ...<section class="trending-section" *ngIf="trendingJobs.length > 0">
+         ╵                                             ~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:62:54:
+      62 │ ...class="trend-card" *ngFor="let job of trendingJobs; let i = index"
+         ╵                                          ~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:71:41:
+      71 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'hasApplied' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:302:28:
+      302 │     return this.dataService.hasApplied(1, jobId);
+          ╵                             ~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.313 seconds]
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'totalJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:42:38:
+      42 │ ...p class="hero-subtitle">{{ totalJobs }} jobs available! Your dr...
+         ╵                               ~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:56:47:
+      56 │ ...<section class="trending-section" *ngIf="trendingJobs.length > 0">
+         ╵                                             ~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:62:54:
+      62 │ ...class="trend-card" *ngFor="let job of trendingJobs; let i = index"
+         ╵                                          ~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:71:41:
+      71 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'hasApplied' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:302:28:
+      302 │     return this.dataService.hasApplied(1, jobId);
+          ╵                             ~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.729 seconds]
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'totalJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:42:38:
+      42 │ ...p class="hero-subtitle">{{ totalJobs }} jobs available! Your dr...
+         ╵                               ~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:56:47:
+      56 │ ...<section class="trending-section" *ngIf="trendingJobs.length > 0">
+         ╵                                             ~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:62:54:
+      62 │ ...class="trend-card" *ngFor="let job of trendingJobs; let i = index"
+         ╵                                          ~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:71:41:
+      71 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'hasApplied' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:302:28:
+      302 │     return this.dataService.hasApplied(1, jobId);
+          ╵                             ~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.571 seconds]
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'totalJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:42:38:
+      42 │ ...p class="hero-subtitle">{{ totalJobs }} jobs available! Your dr...
+         ╵                               ~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:56:47:
+      56 │ ...<section class="trending-section" *ngIf="trendingJobs.length > 0">
+         ╵                                             ~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:62:54:
+      62 │ ...class="trend-card" *ngFor="let job of trendingJobs; let i = index"
+         ╵                                          ~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:71:41:
+      71 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'hasApplied' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:302:28:
+      302 │     return this.dataService.hasApplied(1, jobId);
+          ╵                             ~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.331 seconds]
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'totalJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:42:38:
+      42 │ ...p class="hero-subtitle">{{ totalJobs }} jobs available! Your dr...
+         ╵                               ~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:56:47:
+      56 │ ...<section class="trending-section" *ngIf="trendingJobs.length > 0">
+         ╵                                             ~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:62:54:
+      62 │ ...class="trend-card" *ngFor="let job of trendingJobs; let i = index"
+         ╵                                          ~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:71:41:
+      71 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'hasApplied' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:302:28:
+      302 │     return this.dataService.hasApplied(1, jobId);
+          ╵                             ~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.591 seconds]
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'totalJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:42:38:
+      42 │ ...p class="hero-subtitle">{{ totalJobs }} jobs available! Your dr...
+         ╵                               ~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:56:47:
+      56 │ ...<section class="trending-section" *ngIf="trendingJobs.length > 0">
+         ╵                                             ~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:62:54:
+      62 │ ...class="trend-card" *ngFor="let job of trendingJobs; let i = index"
+         ╵                                          ~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:71:41:
+      71 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'hasApplied' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:302:28:
+      302 │     return this.dataService.hasApplied(1, jobId);
+          ╵                             ~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.424 seconds]
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'totalJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:42:38:
+      42 │ ...p class="hero-subtitle">{{ totalJobs }} jobs available! Your dr...
+         ╵                               ~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:56:47:
+      56 │ ...<section class="trending-section" *ngIf="trendingJobs.length > 0">
+         ╵                                             ~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:62:54:
+      62 │ ...class="trend-card" *ngFor="let job of trendingJobs; let i = index"
+         ╵                                          ~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:71:41:
+      71 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'hasApplied' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:302:28:
+      302 │     return this.dataService.hasApplied(1, jobId);
+          ╵                             ~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [0.342 seconds]
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'totalJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:42:38:
+      42 │ ...p class="hero-subtitle">{{ totalJobs }} jobs available! Your dr...
+         ╵                               ~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:56:47:
+      56 │ ...<section class="trending-section" *ngIf="trendingJobs.length > 0">
+         ╵                                             ~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:62:54:
+      62 │ ...class="trend-card" *ngFor="let job of trendingJobs; let i = index"
+         ╵                                          ~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:71:41:
+      71 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'hasApplied' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:302:28:
+      302 │     return this.dataService.hasApplied(1, jobId);
+          ╵                             ~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [1.388 seconds]
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:71:2:
+      71 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'totalJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:42:38:
+      42 │ ...p class="hero-subtitle">{{ totalJobs }} jobs available! Your dr...
+         ╵                               ~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:56:47:
+      56 │ ...<section class="trending-section" *ngIf="trendingJobs.length > 0">
+         ╵                                             ~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:62:54:
+      62 │ ...class="trend-card" *ngFor="let job of trendingJobs; let i = index"
+         ╵                                          ~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:71:41:
+      71 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2339: Property 'hasApplied' does not exist on type 'MockDataService'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:302:28:
+      302 │     return this.dataService.hasApplied(1, jobId);
+          ╵                             ~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [5.282 seconds]
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:78:2:
+      78 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:78:2:
+      78 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'totalJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:42:38:
+      42 │ ...p class="hero-subtitle">{{ totalJobs }} jobs available! Your dr...
+         ╵                               ~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:56:47:
+      56 │ ...<section class="trending-section" *ngIf="trendingJobs.length > 0">
+         ╵                                             ~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:62:54:
+      62 │ ...class="trend-card" *ngFor="let job of trendingJobs; let i = index"
+         ╵                                          ~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:78:41:
+      78 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [1.129 seconds]
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:78:2:
+      78 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:78:2:
+      78 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'totalJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:42:38:
+      42 │ ...p class="hero-subtitle">{{ totalJobs }} jobs available! Your dr...
+         ╵                               ~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:56:47:
+      56 │ ...<section class="trending-section" *ngIf="trendingJobs.length > 0">
+         ╵                                             ~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:62:54:
+      62 │ ...class="trend-card" *ngFor="let job of trendingJobs; let i = index"
+         ╵                                          ~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:78:41:
+      78 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'onSearchChange' does not exist on type 'JobSearchComponent'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:29:87:
+      29 │ ...hTitle" (ngModelChange)="onSearchChange($event)" placeholder="e...
+         ╵                             ~~~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'applyFilters' does not exist on type 'JobSearchComponent'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:30:88:
+      30 │ ...="searchTitle" (click)="searchTitle=''; applyFilters()">✕</span>
+         ╵                                            ~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'onFilterChange' does not exist on type 'JobSearchComponent'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:35:97:
+      35 │ ...Salary" (ngModelChange)="onFilterChange()" placeholder="e.g. 30...
+         ╵                             ~~~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'onFilterChange' does not exist on type 'JobSearchComponent'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:39:97:
+      39 │ ...Salary" (ngModelChange)="onFilterChange()" placeholder="e.g. 10...
+         ╵                             ~~~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'removeFilter' does not exist on type 'JobSearchComponent'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:44:39:
+      44 │               {{ f }} <button (click)="removeFilter(f)">✕</button>
+         ╵                                        ~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'clearFilters' does not exist on type 'JobSearchComponent'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:46:47:
+      46 │ ...tton class="clear-all" (click)="clearFilters()">Clear All</button>
+         ╵                                    ~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'getCardBg' does not exist on type 'JobSearchComponent'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:68:33:
+      68 │              [style.background]="getCardBg(i)"
+         ╵                                  ~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'hasApplied' does not exist on type 'JobSearchComponent'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:95:39:
+      95 │                  [class.btn-primary]="!hasApplied(job.id)"
+         ╵                                        ~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'hasApplied' does not exist on type 'JobSearchComponent'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:96:40:
+      96 │                  [class.btn-secondary]="hasApplied(job.id)"
+         ╵                                         ~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'applyJob' does not exist on type 'JobSearchComponent'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:97:26:
+      97 │                  (click)="applyJob(job)" [disabled]="hasApplied(jo...
+         ╵                           ~~~~~~~~
+
+
+X [ERROR] NG9: Property 'hasApplied' does not exist on type 'JobSearchComponent'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:97:53:
+      97 │ ...          (click)="applyJob(job)" [disabled]="hasApplied(job.id)">
+         ╵                                                  ~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'hasApplied' does not exist on type 'JobSearchComponent'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:98:19:
+      98 │                 {{ hasApplied(job.id) ? '✓ Applied' : 'Apply Now...
+         ╵                    ~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'clearFilters' does not exist on type 'JobSearchComponent'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:110:51:
+      110 │ ...tn btn-secondary" (click)="clearFilters()">Clear Filters</button>
+          ╵                               ~~~~~~~~~~~~
+
+
+X [ERROR] TS2420: Class 'JobSearchComponent' incorrectly implements interface 'OnInit'.
+  Property 'ngOnInit' is missing in type 'JobSearchComponent' but required in type 'OnInit'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:244:13:
+      244 │ export class JobSearchComponent implements OnInit {
+          ╵              ~~~~~~~~~~~~~~~~~~
+
+  'ngOnInit' is declared here.
+
+    node_modules/@angular/core/index.d.ts:7604:4:
+      7604 │     ngOnInit(): void;
+           ╵     ~~~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS1068: Unexpected token. A constructor, method, accessor, or property was expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:258:4:
+      258 │     this.searchSubject.pipe(debounceTime(300), distinctUntilChang...
+          ╵     ~~~~
+
+
+X [ERROR] TS2532: Object is possibly 'undefined'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:258:4:
+      258 │     this.searchSubject.pipe(debounceTime(300), distinctUntilChang...
+          ╵     ~~~~
+
+
+X [ERROR] TS2532: Object is possibly 'undefined'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:258:87:
+      258 │ ...0), distinctUntilChanged()).subscribe(() => this.applyFilters());
+          ╵                                                ~~~~
+
+
+X [ERROR] TS2532: Object is possibly 'undefined'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:259:4:
+      259 │     this.filterSubject.pipe(debounceTime(300)).subscribe(() => th...
+          ╵     ~~~~
+
+
+X [ERROR] TS2532: Object is possibly 'undefined'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:259:63:
+      259 │ ...ect.pipe(debounceTime(300)).subscribe(() => this.applyFilters());
+          ╵                                                ~~~~
+
+
+X [ERROR] TS2532: Object is possibly 'undefined'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:261:17:
+      261 │     const user = this.dataService.getCurrentUserSync();
+          ╵                  ~~~~
+
+
+X [ERROR] TS2532: Object is possibly 'undefined'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:263:6:
+      263 │       this.dataService.getStudentApplications(user.id).subscribe(...
+          ╵       ~~~~
+
+
+X [ERROR] TS7006: Parameter 'apps' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:263:65:
+      263 │ ...s.dataService.getStudentApplications(user.id).subscribe(apps => {
+          ╵                                                            ~~~~
+
+
+X [ERROR] TS2532: Object is possibly 'undefined'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:264:8:
+      264 │         this.appliedJobIds = new Set(apps.map(a => a.jobId));
+          ╵         ~~~~
+
+
+X [ERROR] TS7006: Parameter 'a' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:264:46:
+      264 │         this.appliedJobIds = new Set(apps.map(a => a.jobId));
+          ╵                                               ^
+
+
+X [ERROR] TS2532: Object is possibly 'undefined'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:265:8:
+      265 │         this.applyFilters();
+          ╵         ~~~~
+
+
+X [ERROR] TS2532: Object is possibly 'undefined'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:268:6:
+      268 │       this.applyFilters();
+          ╵       ~~~~
+
+
+X [ERROR] TS1128: Declaration or statement expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:270:2:
+      270 │   }
+          ╵   ^
+
+
+X [ERROR] TS2304: Cannot find name 'onSearchChange'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:272:2:
+      272 │   onSearchChange(value: string): void { this.searchSubject.next(v...
+          ╵   ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2304: Cannot find name 'value'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:272:17:
+      272 │   onSearchChange(value: string): void { this.searchSubject.next(v...
+          ╵                  ~~~~~
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:272:22:
+      272 │   onSearchChange(value: string): void { this.searchSubject.next(v...
+          ╵                       ^
+
+
+X [ERROR] TS2693: 'string' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:272:24:
+      272 │   onSearchChange(value: string): void { this.searchSubject.next(v...
+          ╵                         ~~~~~~
+
+
+X [ERROR] TS1005: ';' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:272:31:
+      272 │   onSearchChange(value: string): void { this.searchSubject.next(v...
+          ╵                                ^
+
+
+X [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:272:44:
+      272 │ ...chChange(value: string): void { this.searchSubject.next(value); }
+          ╵                                        ^
+
+
+X [ERROR] TS2304: Cannot find name 'value'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:272:64:
+      272 │ ...chChange(value: string): void { this.searchSubject.next(value); }
+          ╵                                                            ~~~~~
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:272:70:
+      272 │ ...chChange(value: string): void { this.searchSubject.next(value); }
+          ╵                                                                  ^
+
+
+X [ERROR] TS2304: Cannot find name 'onFilterChange'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:273:2:
+      273 │   onFilterChange(): void { this.filterSubject.next(); }
+          ╵   ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS1005: ';' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:273:18:
+      273 │   onFilterChange(): void { this.filterSubject.next(); }
+          ╵                   ^
+
+
+X [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:273:31:
+      273 │   onFilterChange(): void { this.filterSubject.next(); }
+          ╵                                ^
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:273:52:
+      273 │   onFilterChange(): void { this.filterSubject.next(); }
+          ╵                                                     ^
+
+
+X [ERROR] TS2304: Cannot find name 'applyFilters'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:275:2:
+      275 │   applyFilters(): void {
+          ╵   ~~~~~~~~~~~~
+
+
+X [ERROR] TS1005: ';' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:275:16:
+      275 │   applyFilters(): void {
+          ╵                 ^
+
+
+X [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:276:8:
+      276 │     this.isLoading = true;
+          ╵         ^
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:276:25:
+      276 │     this.isLoading = true;
+          ╵                          ^
+
+
+X [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:277:8:
+      277 │     this.activeFilters = [];
+          ╵         ^
+
+
+X [ERROR] Unexpected "."
+
+    src/app/student/job-search/job-search.component.ts:277:13:
+      277 │ void { this: .searchSubject.next(value) };
+          ╵              ^
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:277:27:
+      277 │     this.activeFilters = [];
+          ╵                            ^
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:278:12:
+      278 │     if (this.searchTitle) this.activeFilters.push(`Title: "${this...
+          ╵             ^
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:278:24:
+      278 │     if (this.searchTitle) this.activeFilters.push(`Title: "${this...
+          ╵                         ^
+
+
+X [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:278:30:
+      278 │     if (this.searchTitle) this.activeFilters.push(`Title: "${this...
+          ╵                               ^
+
+
+X [ERROR] TS2532: Object is possibly 'undefined'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:278:61:
+      278 │ ...chTitle) this.activeFilters.push(`Title: "${this.searchTitle}"`);
+          ╵                                                ~~~~
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:278:81:
+      278 │ ...chTitle) this.activeFilters.push(`Title: "${this.searchTitle}"`);
+          ╵                                                                    ^
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:279:12:
+      279 │     if (this.minSalary) this.activeFilters.push(`Min: ₹${this.m...
+          ╵             ^
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:279:22:
+      279 │     if (this.minSalary) this.activeFilters.push(`Min: ₹${this.m...
+          ╵                       ^
+
+
+X [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:279:28:
+      279 │     if (this.minSalary) this.activeFilters.push(`Min: ₹${this.m...
+          ╵                             ^
+
+
+X [ERROR] TS2532: Object is possibly 'undefined'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:279:57:
+      279 │ ....minSalary) this.activeFilters.push(`Min: ₹${this.minSalary}`);
+          ╵                                               ~~~~
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:279:74:
+      279 │ ....minSalary) this.activeFilters.push(`Min: ₹${this.minSalary}`);
+          ╵                                                                ^
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:280:12:
+      280 │     if (this.maxSalary) this.activeFilters.push(`Max: ₹${this.m...
+          ╵             ^
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:280:22:
+      280 │     if (this.maxSalary) this.activeFilters.push(`Max: ₹${this.m...
+          ╵                       ^
+
+
+X [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:280:28:
+      280 │     if (this.maxSalary) this.activeFilters.push(`Max: ₹${this.m...
+          ╵                             ^
+
+
+X [ERROR] TS2532: Object is possibly 'undefined'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:280:57:
+      280 │ ....maxSalary) this.activeFilters.push(`Max: ₹${this.maxSalary}`);
+          ╵                                               ~~~~
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:280:74:
+      280 │ ....maxSalary) this.activeFilters.push(`Max: ₹${this.maxSalary}`);
+          ╵                                                                ^
+
+
+X [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:282:8:
+      282 │     this.dataService.getJobs(this.searchTitle, this.minSalary || ...
+          ╵         ^
+
+
+X [ERROR] TS2532: Object is possibly 'undefined'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:282:29:
+      282 │     this.dataService.getJobs(this.searchTitle, this.minSalary || ...
+          ╵                              ~~~~
+
+
+X [ERROR] TS2532: Object is possibly 'undefined'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:282:47:
+      282 │ ...ce.getJobs(this.searchTitle, this.minSalary || undefined, this...
+          ╵                                 ~~~~
+
+
+X [ERROR] TS2532: Object is possibly 'undefined'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:282:76:
+      282 │ ...hTitle, this.minSalary || undefined, this.maxSalary || undefined)
+          ╵                                         ~~~~
+
+
+X [ERROR] TS7006: Parameter 'jobs' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:283:17:
+      283 │       .subscribe(jobs => {
+          ╵                  ~~~~
+
+
+X [ERROR] TS2532: Object is possibly 'undefined'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:284:8:
+      284 │         this.filteredJobs = jobs;
+          ╵         ~~~~
+
+
+X [ERROR] TS2532: Object is possibly 'undefined'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:285:8:
+      285 │         this.isLoading = false;
+          ╵         ~~~~
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:286:8:
+      286 │       });
+          ╵         ^
+
+
+X [ERROR] TS2304: Cannot find name 'removeFilter'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:289:2:
+      289 │   removeFilter(filter: string): void {
+          ╵   ~~~~~~~~~~~~
+
+
+X [ERROR] TS2552: Cannot find name 'filter'. Did you mean 'File'? [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:289:15:
+      289 │   removeFilter(filter: string): void {
+          ╵                ~~~~~~
+
+  'File' is declared here.
+
+    node_modules/typescript/lib/lib.dom.d.ts:8316:12:
+      8316 │ declare var File: {
+           ╵             ~~~~
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:289:21:
+      289 │   removeFilter(filter: string): void {
+          ╵                      ^
+
+
+X [ERROR] TS2693: 'string' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:289:23:
+      289 │   removeFilter(filter: string): void {
+          ╵                        ~~~~~~
+
+
+X [ERROR] TS1005: ';' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:289:30:
+      289 │   removeFilter(filter: string): void {
+          ╵                               ^
+
+
+X [ERROR] TS7006: Parameter 'filter' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:290:8:
+      290 │     if (filter.startsWith('Title')) this.searchTitle = '';
+          ╵         ~~~~~~
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:290:14:
+      290 │     if (filter.startsWith('Title')) this.searchTitle = '';
+          ╵               ^
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:290:34:
+      290 │     if (filter.startsWith('Title')) this.searchTitle = '';
+          ╵                                   ^
+
+
+X [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:290:40:
+      290 │     if (filter.startsWith('Title')) this.searchTitle = '';
+          ╵                                         ^
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:290:57:
+      290 │     if (filter.startsWith('Title')) this.searchTitle = '';
+          ╵                                                          ^
+
+
+X [ERROR] TS7006: Parameter 'filter' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:291:8:
+      291 │     if (filter.startsWith('Min')) this.minSalary = null;
+          ╵         ~~~~~~
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:291:14:
+      291 │     if (filter.startsWith('Min')) this.minSalary = null;
+          ╵               ^
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:291:32:
+      291 │     if (filter.startsWith('Min')) this.minSalary = null;
+          ╵                                 ^
+
+
+X [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:291:38:
+      291 │     if (filter.startsWith('Min')) this.minSalary = null;
+          ╵                                       ^
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:291:55:
+      291 │     if (filter.startsWith('Min')) this.minSalary = null;
+          ╵                                                        ^
+
+
+X [ERROR] TS7006: Parameter 'filter' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:292:8:
+      292 │     if (filter.startsWith('Max')) this.maxSalary = null;
+          ╵         ~~~~~~
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:292:14:
+      292 │     if (filter.startsWith('Max')) this.maxSalary = null;
+          ╵               ^
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:292:32:
+      292 │     if (filter.startsWith('Max')) this.maxSalary = null;
+          ╵                                 ^
+
+
+X [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:292:38:
+      292 │     if (filter.startsWith('Max')) this.maxSalary = null;
+          ╵                                       ^
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:292:55:
+      292 │     if (filter.startsWith('Max')) this.maxSalary = null;
+          ╵                                                        ^
+
+
+X [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:293:8:
+      293 │     this.applyFilters();
+          ╵         ^
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:293:23:
+      293 │     this.applyFilters();
+          ╵                        ^
+
+
+X [ERROR] TS2304: Cannot find name 'clearFilters'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:296:2:
+      296 │   clearFilters(): void {
+          ╵   ~~~~~~~~~~~~
+
+
+X [ERROR] TS1005: ';' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:296:16:
+      296 │   clearFilters(): void {
+          ╵                 ^
+
+
+X [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:297:8:
+      297 │     this.searchTitle = '';
+          ╵         ^
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:297:25:
+      297 │     this.searchTitle = '';
+          ╵                          ^
+
+
+X [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:298:8:
+      298 │     this.minSalary = null;
+          ╵         ^
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:298:25:
+      298 │     this.minSalary = null;
+          ╵                          ^
+
+
+X [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:299:8:
+      299 │     this.maxSalary = null;
+          ╵         ^
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:299:25:
+      299 │     this.maxSalary = null;
+          ╵                          ^
+
+
+X [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:300:8:
+      300 │     this.applyFilters();
+          ╵         ^
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:300:23:
+      300 │     this.applyFilters();
+          ╵                        ^
+
+
+X [ERROR] TS2304: Cannot find name 'applyJob'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:303:2:
+      303 │   applyJob(job: Job): void {
+          ╵   ~~~~~~~~
+
+
+X [ERROR] TS2304: Cannot find name 'job'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:303:11:
+      303 │   applyJob(job: Job): void {
+          ╵            ~~~
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:303:14:
+      303 │   applyJob(job: Job): void {
+          ╵               ^
+
+
+X [ERROR] TS2693: 'Job' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:303:16:
+      303 │   applyJob(job: Job): void {
+          ╵                 ~~~
+
+
+X [ERROR] TS1005: ';' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:303:20:
+      303 │   applyJob(job: Job): void {
+          ╵                     ^
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:304:12:
+      304 │     if (this.hasApplied(job.id)) return;
+          ╵             ^
+
+
+X [ERROR] TS2304: Cannot find name 'job'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:304:24:
+      304 │     if (this.hasApplied(job.id)) return;
+          ╵                         ~~~
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:304:31:
+      304 │     if (this.hasApplied(job.id)) return;
+          ╵                                ^
+
+
+X [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:304:39:
+      304 │     if (this.hasApplied(job.id)) return;
+          ╵                                        ^
+
+
+X [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:305:10:
+      305 │     const user = this.dataService.getCurrentUserSync();
+          ╵           ~~~~
+
+
+X [ERROR] TS2588: Cannot assign to 'user' because it is a constant. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:305:10:
+      305 │     const user = this.dataService.getCurrentUserSync();
+          ╵           ~~~~
+
+
+X [ERROR] TS2532: Object is possibly 'undefined'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:305:17:
+      305 │     const user = this.dataService.getCurrentUserSync();
+          ╵                  ~~~~
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:305:54:
+      305 │     const user = this.dataService.getCurrentUserSync();
+          ╵                                                       ^
+
+
+X [ERROR] TS1003: Identifier expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:306:8:
+      306 │     if (!user) return;
+          ╵         ^
+
+
+X [ERROR] TS7006: Parameter '(Missing)' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:306:8:
+      306 │     if (!user) return;
+          ╵         ^
+
+
+X [ERROR] TS7006: Parameter 'user' implicitly has an 'any' type. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:306:9:
+      306 │     if (!user) return;
+          ╵          ~~~~
+
+
+X [ERROR] TS1005: '{' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:306:15:
+      306 │     if (!user) return;
+          ╵                ~~~~~~
+
+
+X [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:306:21:
+      306 │     if (!user) return;
+          ╵                      ^
+
+
+X [ERROR] TS1005: ':' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:308:8:
+      308 │     this.dataService.applyForJob(user.id, job.id).subscribe(() => {
+          ╵         ^
+
+
+X [ERROR] TS2304: Cannot find name 'job'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:308:42:
+      308 │     this.dataService.applyForJob(user.id, job.id).subscribe(() => {
+          ╵                                           ~~~
+
+
+X [ERROR] TS2532: Object is possibly 'undefined'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:309:6:
+      309 │       this.appliedJobIds.add(job.id);
+          ╵       ~~~~
+
+
+X [ERROR] TS2304: Cannot find name 'job'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:309:29:
+      309 │       this.appliedJobIds.add(job.id);
+          ╵                              ~~~
+
+
+X [ERROR] TS2532: Object is possibly 'undefined'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:310:6:
+      310 │       this.toast.success(`Applied to ${job.title} successfully!`);
+          ╵       ~~~~
+
+
+X [ERROR] TS2304: Cannot find name 'job'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:310:39:
+      310 │       this.toast.success(`Applied to ${job.title} successfully!`);
+          ╵                                        ~~~
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:311:6:
+      311 │     });
+          ╵       ^
+
+
+X [ERROR] TS2304: Cannot find name 'hasApplied'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:314:2:
+      314 │   hasApplied(jobId: number): boolean {
+          ╵   ~~~~~~~~~~
+
+
+X [ERROR] TS2304: Cannot find name 'jobId'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:314:13:
+      314 │   hasApplied(jobId: number): boolean {
+          ╵              ~~~~~
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:314:18:
+      314 │   hasApplied(jobId: number): boolean {
+          ╵                   ^
+
+
+X [ERROR] TS2693: 'number' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:314:20:
+      314 │   hasApplied(jobId: number): boolean {
+          ╵                     ~~~~~~
+
+
+X [ERROR] TS1005: ';' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:314:27:
+      314 │   hasApplied(jobId: number): boolean {
+          ╵                            ^
+
+
+X [ERROR] TS1434: Unexpected keyword or identifier. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:314:29:
+      314 │   hasApplied(jobId: number): boolean {
+          ╵                              ~~~~~~~
+
+
+X [ERROR] TS2693: 'boolean' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:314:29:
+      314 │   hasApplied(jobId: number): boolean {
+          ╵                              ~~~~~~~
+
+
+X [ERROR] TS2304: Cannot find name 'getCardBg'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:318:2:
+      318 │   getCardBg(index: number): string {
+          ╵   ~~~~~~~~~
+
+
+X [ERROR] TS2304: Cannot find name 'index'. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:318:12:
+      318 │   getCardBg(index: number): string {
+          ╵             ~~~~~
+
+
+X [ERROR] TS1005: ',' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:318:17:
+      318 │   getCardBg(index: number): string {
+          ╵                  ^
+
+
+X [ERROR] TS2693: 'number' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:318:19:
+      318 │   getCardBg(index: number): string {
+          ╵                    ~~~~~~
+
+
+X [ERROR] TS1005: ';' expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:318:26:
+      318 │   getCardBg(index: number): string {
+          ╵                           ^
+
+
+X [ERROR] TS1434: Unexpected keyword or identifier. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:318:28:
+      318 │   getCardBg(index: number): string {
+          ╵                             ~~~~~~
+
+
+X [ERROR] TS2693: 'string' only refers to a type, but is being used as a value here. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:318:28:
+      318 │   getCardBg(index: number): string {
+          ╵                             ~~~~~~
+
+
+X [ERROR] TS1128: Declaration or statement expected. [plugin angular-compiler]
+
+    src/app/student/job-search/job-search.component.ts:322:0:
+      322 │ }
+          ╵ ^
+
+
+- Changes detected. Rebuilding...
+
+Application bundle generation failed. [2.390 seconds]
+
+X [ERROR] TS2551: Property 'updateInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:104:21:
+      104 │     this.dataService.updateInterview(this.editingId, this.editFor...
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:78:2:
+      78 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2551: Property 'deleteInterview' does not exist on type 'MockDataService'. Did you mean 'createInterview'? [plugin angular-compiler]
+
+    src/app/admin/manage-interviews/manage-interviews.component.ts:112:21:
+      112 │     this.dataService.deleteInterview(id).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  'createInterview' is declared here.
+
+    src/app/core/mock-data.service.ts:78:2:
+      78 │   createInterview(applicationId: number, interview: any): Observab...
+         ╵   ~~~~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'totalJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:42:38:
+      42 │ ...p class="hero-subtitle">{{ totalJobs }} jobs available! Your dr...
+         ╵                               ~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:56:47:
+      56 │ ...<section class="trending-section" *ngIf="trendingJobs.length > 0">
+         ╵                                             ~~~~~~~~~~~~
+
+
+X [ERROR] NG9: Property 'trendingJobs' does not exist on type 'LandingPageComponent'. [plugin angular-compiler]
+
+    src/app/landing/landing.component.ts:62:54:
+      62 │ ...class="trend-card" *ngFor="let job of trendingJobs; let i = index"
+         ╵                                          ~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 2 arguments, but got 1. [plugin angular-compiler]
+
+    src/app/recruiter/schedule-interview/schedule-interview.component.ts:128:21:
+      128 │     this.dataService.createInterview(interview).subscribe(() => {
+          ╵                      ~~~~~~~~~~~~~~~
+
+  An argument for 'interview' was not provided.
+
+    src/app/core/mock-data.service.ts:78:41:
+      78 │ ...ew(applicationId: number, interview: any): Observable<Interview> {
+         ╵                              ~~~~~~~~~~~~~~
+
+
+X [ERROR] TS2554: Expected 0-1 arguments, but got 3. [plugin angular-compiler]
+
+    src/app/recruiter/search-students/search-students.component.ts:163:65:
+      163 │ ...ndefined, this.cgpaQuery || undefined, this.skillsQuery || und...
+          ╵              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
